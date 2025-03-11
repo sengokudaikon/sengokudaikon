@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="100" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes glitch1 {
+      0% { transform: translateX(0); }
+      30% { transform: translateX(-5px); }
+      60% { transform: translateX(5px); }
+      100% { transform: translateX(0); }
+    }
+    @keyframes glitch2 {
+      0% { transform: translateX(0); }
+      30% { transform: translateX(5px); }
+      60% { transform: translateX(-5px); }
+      100% { transform: translateX(0); }
+    }
+    @keyframes flicker {
+      0% { opacity: 0.8; }
+      10% { opacity: 0.4; }
+      20% { opacity: 0.8; }
+      30% { opacity: 1; }
+      40% { opacity: 0.6; }
+      50% { opacity: 0.8; }
+      60% { opacity: 1; }
+      70% { opacity: 0.7; }
+      80% { opacity: 0.8; }
+      90% { opacity: 0.6; }
+      100% { opacity: 0.8; }
+    }
+    .background {
+      fill: #0D1117;
+    }
+    .text-main {
+      font-family: 'Courier New', monospace;
+      font-size: 24px;
+      font-weight: bold;
+      fill: #00FFFF;
+      animation: flicker 3s infinite;
+    }
+    .text-glitch-1 {
+      font-family: 'Courier New', monospace;
+      font-size: 24px;
+      font-weight: bold;
+      fill: #FF00FF;
+      opacity: 0.7;
+      animation: glitch1 0.5s infinite;
+    }
+    .text-glitch-2 {
+      font-family: 'Courier New', monospace;
+      font-size: 24px;
+      font-weight: bold;
+      fill: #00FF9C;
+      opacity: 0.7;
+      animation: glitch2 0.5s infinite;
+    }
+    .terminal-line {
+      stroke: #00FFFF;
+      stroke-width: 2;
+      stroke-dasharray: 5, 5;
+    }
+  </style>
+  
+  <!-- Background -->
+  <rect class="background" width="800" height="100" />
+  
+  <!-- Terminal lines -->
+  <line class="terminal-line" x1="50" y1="20" x2="750" y2="20" />
+  <line class="terminal-line" x1="50" y1="80" x2="750" y2="80" />
+  
+  <!-- Glitch text layers -->
+  <text class="text-glitch-1" x="400" y="55" text-anchor="middle">CONNECTION ESTABLISHED: WELCOME TO THE MAINFRAME</text>
+  <text class="text-main" x="400" y="55" text-anchor="middle">CONNECTION ESTABLISHED: WELCOME TO THE MAINFRAME</text>
+  <text class="text-glitch-2" x="400" y="55" text-anchor="middle">CONNECTION ESTABLISHED: WELCOME TO THE MAINFRAME</text>
+</svg>
