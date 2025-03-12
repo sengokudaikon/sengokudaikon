@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cyberpunk-text {
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+    }
+    .blink {
+      animation: blink 1s step-end infinite;
+    }
+  </style>
+
+  <!-- Main background -->
+  <rect width="800" height="200" fill="#0D1117" rx="10" ry="10"/>
+  <rect x="5" y="5" width="790" height="190" fill="none" stroke="#00FFFF" stroke-width="2" rx="8" ry="8" class="neon-border"/>
+  
+  <!-- Terminal Window Controls -->
+  <circle cx="25" cy="25" r="8" fill="#FF5F56"/>
+  <circle cx="50" cy="25" r="8" fill="#FFBD2E"/>
+  <circle cx="75" cy="25" r="8" fill="#27C93F"/>
+  
+  <!-- Title Bar -->
+  <text x="400" y="25" font-family="'Courier New', monospace" font-size="14" fill="#00FFFF" text-anchor="middle" class="cyberpunk-text">TERMINAL - /dev/tty1</text>
+
+  <!-- Terminal content -->
+  <text x="20" y="60" font-family="'Courier New', monospace" font-size="14" fill="#00FFFF">
+    [ 9.876543] systemd[1]: Stopping system...
+  </text>
+  
+  <text x="20" y="80" font-family="'Courier New', monospace" font-size="14" fill="#00FFFF">
+    [ 9.987654] systemd[1]: Stopped target Graphical Interface.
+  </text>
+  
+  <text x="20" y="100" font-family="'Courier New', monospace" font-size="14" fill="#00FFFF">
+    [ 10.123456] systemd[1]: Stopped target Multi-User System.
+  </text>
+  
+  <text x="20" y="120" font-family="'Courier New', monospace" font-size="14" fill="#00FFFF">
+    [ 10.234567] systemd[1]: Reached target Shutdown.
+  </text>
+  
+  <text x="20" y="140" font-family="'Courier New', monospace" font-size="14" fill="#00FFFF">
+    [ 10.345678] systemd[1]: Reached target Final Step.
+  </text>
+  
+  <text x="20" y="160" font-family="'Courier New', monospace" font-size="14" fill="#00FFFF">
+    [ 10.456789] systemd[1]: Starting Power-Off...
+  </text>
+  
+  <text x="20" y="180" font-family="'Courier New', monospace" font-size="14" fill="#FF00FF">
+    [ 10.567890] Thank you for visiting my GitHub profile!
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="20" y="190" width="10" height="2" fill="#FF00FF" class="blink"/>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0D1117" rx="10" ry="10"/>
+  <rect x="5" y="5" width="790" height="390" fill="none" stroke="#00FFFF" stroke-width="2" rx="8" ry="8" class="neon-border"/>
+  
+  <!-- Terminal Window Controls -->
+  <circle cx="25" cy="25" r="8" fill="#FF5F56"/>
+  <circle cx="50" cy="25" r="8" fill="#FFBD2E"/>
+  <circle cx="75" cy="25" r="8" fill="#27C93F"/>
+  
+  <!-- Title Bar -->
+  <text x="400" y="25" font-family="'Courier New', monospace" font-size="14" fill="#00FFFF" text-anchor="middle" class="cyberpunk-text">TERMINAL - neofetch</text>
+  
+  <!-- Command Input -->
+  <text font-family="'Courier New', monospace" font-size="14" x="20" y="50" class="cyberpunk-text">
+    <tspan fill="#FF00FF">sengokudaikon@github</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">~</tspan><tspan fill="#00FFFF">$ </tspan><tspan fill="#FFFFFF">neofetch</tspan>
+  </text>
+
+  <!-- Two Column Layout -->
+  <g transform="translate(20, 80)">
+    <!-- ASCII Art Column -->
+    <text font-family="'Courier New', monospace" font-size="14" fill="#FF00FF" class="cyberpunk-text">
+      <tspan x="0" y="0">⠀⠀⠀⠀⠀⣠⠶⠚⠛⠛⠛⠲⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="0" y="15">⠀⠀⠀⣴⠟⠁⠀⠀⠀⠀⠀⠀⠀⠻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="0" y="30">⠀⣠⣾⣷⣄⠀⠀⠀⢀⣠⣤⣤⡀⠀⢿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="0" y="45">⢸⣿⡿⢃⣸⡶⠂⢠⣿⣿⡿⠁⣱⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="0" y="60">⢸⡏⠉⠩⣏⣐⣦⠀⠛⠦⠴⠚⠁⠀⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="0" y="75">⣼⠧⠶⠶⠶⠿⠶⠶⠖⠚⠛⠉⠁⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠶⠶⡄⠀⠀</tspan>
+      <tspan x="0" y="90">⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⢠⡟⠀⠀⢹⠀⠀</tspan>
+      <tspan x="0" y="105">⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⢤⢠⡆⠀⢸⡄⠀⠀⠀⠀⠀⠀⢀⡿⠁⠀⠀⡾⠀⠀</tspan>
+      <tspan x="0" y="120">⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠈⡇⠀⠸⣧⣠⠴⠶⠖⠲⢶⡞⠁⠀⢈⡼⢃⠀⠀</tspan>
+      <tspan x="0" y="135">⠸⡆⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⡇⠀⠀⢿⠁⠄⣲⡶⠶⠿⢤⣄⡀⠛⢛⠉⢻⠀</tspan>
+      <tspan x="0" y="150">⠀⢿⡀⠀⠀⠀⠀⠀⠀⠀⢸⠠⣇⠀⠀⠀⠀⠊⠁⠀⠀⠀⠀⠀⠙⢦⠈⠙⠓⣆</tspan>
+      <tspan x="0" y="165">⠀⠈⢷⡀⠀⠀⠀⠀⠀⢠⠏⡀⣬⣹⣦⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠈⡿⠶⠶⠋</tspan>
+      <tspan x="0" y="180">⠀⠀⠈⢷⡀⠀⠀⠀⠀⠘⠛⠛⠋⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⣼⠃⠀⠀⠀</tspan>
+      <tspan x="0" y="195">⠀⠀⠀⠀⠙⢦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⣠⡞⠁⠀⠀⠀⠀</tspan>
+      <tspan x="0" y="210">⠀⠀⠀⠀⠀⠀⠈⠛⣷⢶⣦⣤⣄⣀⣠⣤⣤⠀⣶⠶⠶⠶⠛⠁⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="0" y="225">⠀⠀⠀⠀⣀⡀⠀⣰⠇⣾⠀⠀⠈⣩⣥⣄⣿⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="0" y="240">⠀⠀⠀⠀⢿⡉⠳⡟⣸⠃⠀⠀⠀⠘⢷⣌⠉⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="0" y="255">⠀⠀⠀⠀⠀⠙⢦⣴⠏⠀⠀⠀⠀⠀⠀⠉⠳⠶⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    </text>
+
+    <!-- System Info Column -->
+    <text font-family="'Courier New', monospace" font-size="14" x="400" y="0">
+      <tspan x="400" y="0"><tspan fill="#FF00FF">sengokudaikon@github</tspan></tspan>
+      <tspan x="400" y="15"><tspan fill="#00FFFF">--------------------------</tspan></tspan>
+      <tspan x="400" y="30"><tspan fill="#FF00FF">OS</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">          DystopiaOS X v15.2</tspan></tspan>
+      <tspan x="400" y="45"><tspan fill="#FF00FF">HOST</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">        sengokudaikon</tspan></tspan>
+      <tspan x="400" y="60"><tspan fill="#FF00FF">KERNEL</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">      cyber-5.15.0-gonk</tspan></tspan>
+      <tspan x="400" y="75"><tspan fill="#FF00FF">UPTIME</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">      26 years 9 months 17 days</tspan></tspan>
+      <tspan x="400" y="90"><tspan fill="#FF00FF">PACKAGES</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">    1337 (neo-pkg)</tspan></tspan>
+      <tspan x="400" y="105"><tspan fill="#FF00FF">SHELL</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">       skull-bash 5.1.0</tspan></tspan>
+      <tspan x="400" y="120"><tspan fill="#FF00FF">RESOLUTION</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">  3840x2160, 144Hz</tspan></tspan>
+      <tspan x="400" y="135"><tspan fill="#FF00FF">DE</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">          KDEath 4.2</tspan></tspan>
+      <tspan x="400" y="150"><tspan fill="#FF00FF">CPU</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">         -</tspan></tspan>
+      <tspan x="400" y="165"><tspan fill="#FF00FF">GPU</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">         -</tspan></tspan>
+    </text>
+  </g>
+
+  <!-- Color Blocks -->
+  <g transform="translate(400, 300)">
+    <rect x="0" y="0" width="20" height="20" fill="#FF0000"/>
+    <rect x="25" y="0" width="20" height="20" fill="#FF7F00"/>
+    <rect x="50" y="0" width="20" height="20" fill="#FFFF00"/>
+    <rect x="75" y="0" width="20" height="20" fill="#00FF00"/>
+    <rect x="100" y="0" width="20" height="20" fill="#0000FF"/>
+    <rect x="125" y="0" width="20" height="20" fill="#4B0082"/>
+    <rect x="150" y="0" width="20" height="20" fill="#9400D3"/>
+    <rect x="175" y="0" width="20" height="20" fill="#FF00FF"/>
+  </g>
+
+  <!-- New Command Prompt -->
+  <text font-family="'Courier New', monospace" font-size="14" x="20" y="380" class="cyberpunk-text">
+    <tspan fill="#FF00FF">sengokudaikon@github</tspan><tspan fill="#00FFFF">:</tspan><tspan fill="#00FF9C">~</tspan><tspan fill="#00FFFF">$ </tspan><tspan fill="#FFFFFF" class="blink">_</tspan>
+  </text>
+
+  <!-- Add blinking cursor animation -->
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .blink {
+      animation: blink 1s step-end infinite;
+    }
+  </style>
+</svg>
